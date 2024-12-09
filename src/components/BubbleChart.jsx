@@ -9,7 +9,7 @@ const BubbleChart = ({ data }) => {
         data: data.expenses.map((x, i) => ({
           x,
           y: data.profits[i],
-          r: data.sales[i] / 1000,
+          r: data.sales[i] / 50,
         })),
         backgroundColor: 'rgba(54, 162, 235, 0.6)',
       },
