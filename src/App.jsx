@@ -21,7 +21,7 @@ const App = () => {
       <h1>Dynamic Chart Dashboard</h1>
       <BarChart data={data} />
       <LineChart data={data} />
-      <ScatterChart data={data} />
+      <ScatterChart data= {data} />
       <BubbleChart data={data} />
     </div>
   );
